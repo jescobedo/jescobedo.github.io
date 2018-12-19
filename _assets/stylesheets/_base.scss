@@ -94,9 +94,11 @@ h6 {
 
 a {
   color: $base-accent-color;
-  text-decoration: underline;
+  text-decoration: none;//underline;
   transition: color $base-transition-speed linear;
-  &:hover,
+  &:hover {
+    text-decoration: underline;
+  }
   &:active {
     color: $base-accent-highlighted-color;
   }
@@ -155,7 +157,7 @@ img {
   text-align: center;
 }
 
-::selection {
-  color: $white;
-  background-color: $gray-darkest;
-}
+// ::selection {
+//   color: $white;
+//   background-color: $gray-darkest;
+// }

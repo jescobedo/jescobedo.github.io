@@ -20,7 +20,7 @@ $white: #fff;
 // Font colors
 
 $base-font-color: $gray-dark;
-$base-accent-color: $gray-dark;
+$base-accent-color: #346DC9; //$gray-dark;
 $base-accent-highlighted-color: darken($base-accent-color, 15);
 
 // Border color
@@ -68,3 +68,4 @@ $article-paginator-color-hover: $gray-darkest;
 @import "modules/highlights-light";
 @import "modules/scrollappear";
 @import "modules/tags";
+@import "modules/pages";
