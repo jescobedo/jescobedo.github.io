@@ -18,6 +18,7 @@
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^4.1.6",
     "gatsby": "^4.14.1",
+    "gatsby-plugin-google-gtag": "^4.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
