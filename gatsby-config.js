@@ -37,11 +37,14 @@ module.exports = {
         trackingIds: [
           "G-PN79Q0CM8F" // Google Analytics / GA
         ],
+        gtagConfig: {
+          anonymize_ip: true,
+        },
         pluginConfig: {
           head: true
         },
       },
-    }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-theme-ui`
