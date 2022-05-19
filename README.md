@@ -1,1 +1,0 @@
-Source code for [www.jorgeescobedo.com](https://www.jorgeescobedo.com).
