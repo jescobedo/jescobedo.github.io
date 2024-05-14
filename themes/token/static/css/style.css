@@ -1,0 +1,247 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 768px;
+    height: 100%;
+}
+
+/* For sticky footer */
+.page-wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    /* border-bottom: 1px solid #222; */
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+}
+
+footer {
+    /* border-top: 1px solid #222; */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    height: 50px; /* Adjust this value to match your footer's height */
+}
+
+/* Font Colors */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0d47a1;
+}
+
+/* Hyperlinks */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0d47a1; /* Use the darker blue on hover */
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* List Styles */
+main ul, main ol {
+    margin-bottom: 1.5rem;
+}
+
+main li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Header Navigation */
+nav {
+    padding: 1rem 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-left a {
+    color: #0d47a1;
+    text-decoration: none;
+}
+
+.nav-right .nav-menu {
+    display: flex;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.nav-right .nav-menu li {
+    margin-left: 1.75rem;
+}
+
+.nav-right .nav-menu li:first-child {
+    margin-left: 0;
+}
+
+.nav-right .nav-menu a {
+    text-decoration: none;
+    /* color: #0d47a1; */
+    color: #403d3d;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.nav-right .nav-menu a:hover {
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    /* Navigation Menu */
+    .nav-right {
+        display: flex; /* none instead of flex to hide the navigation menu on small screens */
+    }
+
+    /* Content */
+    body {
+        max-width: 100%;
+        padding: 1rem; /* Add some padding for better readability on small screens */
+    }
+
+    /* Headings */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    /* Reduce heading sizes for better readability on small screens */
+}
+
+/* Roboto font */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }

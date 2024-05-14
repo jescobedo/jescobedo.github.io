@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+  dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <!-- <div class="content-wrapper"> -->
+    <div class="page-wrapper">
+      <header>
+        {{ partial "header.html" . }}
+      </header>
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+      <footer>
+        {{ partial "footer.html" . }}
+      </footer>
+    </div>
+  <!-- </div> -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var links = document.querySelectorAll('a:not(nav a)');
+      links.forEach(function (link) {
+        link.setAttribute('target', '_blank');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+/* Code blocks */
+pre {
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
+    padding: 1rem !important;
+    border-radius: 5px !important;
+    overflow-x: auto !important;
+}
+
+/* Inline code */
+code {
+    font-family: 'Courier New', Courier, monospace !important;
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 3px !important;
+}
