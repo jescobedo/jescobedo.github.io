@@ -2,3 +2,7 @@ baseURL = 'https://www.jorgeescobedo.com/'
 languageCode = 'en-us'
 title = 'Jorge Escobedo'
 theme = 'token'
+
+
+[markup.goldmark.renderer]
+  unsafe = true

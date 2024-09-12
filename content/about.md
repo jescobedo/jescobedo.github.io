@@ -4,6 +4,8 @@ date = 2024-05-05
 draft = false
 +++
 
+<img src="/images/profile.jpg" alt="Profile Picture" class="profile-picture">
+
 ### About Me
 
 Hi. My name is Jorge. I currently serve as Head of Machine Learning at [Yape](https://www.yape.com.pe), a super app with 16+ million users driving financial inclusion in Peru. At Yape, my team designs and builds our ML platform and infrastructure, and develops AI/ML systems that power personalization, recommendations and experimentation.

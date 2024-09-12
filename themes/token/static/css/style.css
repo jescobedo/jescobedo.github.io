@@ -31,11 +31,10 @@ footer {
     /* border-top: 1px solid #222; */
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    height: 50px; /* Adjust this value to match your footer's height */
+    height: 50px; /* Adjust this value to match the footer's height */
 }
 
 /* Font Colors */
-
 h1, h2, h3, h4, h5, h6 {
     color: #0d47a1;
 }
@@ -144,8 +143,16 @@ nav {
     color: #666;
 }
 
+img.profile-picture {
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    width: 220px;
+}
+
 /* Responsive Styles */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     /* Navigation Menu */
     .nav-right {
         display: flex; /* none instead of flex to hide the navigation menu on small screens */
@@ -170,7 +177,12 @@ nav {
         font-size: 1.5rem;
     }
 
-    /* Reduce heading sizes for better readability on small screens */
+    img.profile-picture {
+        display: block;
+        width: 35%;
+        float: none;
+        margin: auto;
+    }
 }
 
 /* Roboto font */
