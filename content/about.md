@@ -8,7 +8,7 @@ draft = false
 
 ### About Me
 
-Hi. My name is Jorge. I currently serve as Head of Machine Learning at [Yape](https://www.yape.com.pe), a super app with 16+ million users driving financial inclusion in Peru. At Yape, my team designs and builds our ML platform and infrastructure, and develops AI/ML systems that power personalization, recommendations and experimentation.
+Hi. My name is Jorge. I currently serve as Head of Machine Learning at [Yape](https://www.yape.com.pe), a super app with 17+ million users driving financial inclusion in Peru. At Yape, my team designs and builds our ML platform and infrastructure, and develops AI/ML systems that power personalization, recommendations and experimentation.
 
 Previously, I led [Unravel Carbon](https://www.unravelcarbon.com)'s engineering and data teams in building an AI-powered decarbonization platform used by enterprises to reduce, report and offset their carbon emissions. Before that, I led [Drop](https://www.joindrop.com)'s engineering and data teams after they acquired Canopy Labs, a company I co-founded backed by [Y Combinator](https://www.ycombinator.com/), where I served as CTO. 
 
